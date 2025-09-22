@@ -1,0 +1,17 @@
+Bir tane android telefonda kullanılacak ve buna göre kod yazılacak bir öğrenci takip uygulaması yapmak istiyorum. Uygulama
+1.	Ana sayfa olacak. Bu ana sayfada bir sınıf ekle butonu olacak. Sınıf ej-klendiği zaman istenildipinde silinmesi içinde bir silme butonu olacak. Bir de anasayfa da ayarlar butonu olacak. 
+2.	Ayarlar butonu içinde okul ismi ekleme kısmı olacak. Birde takvim kısmı olacak. Okul ekleme kısmı çıktı alınırken de okul ismi sorulacağı için önceden ayarlar kısmından kayıt altına alacağız. Takvim kısmına gelince de ayarlanabilir bir şekilde eğitim öğretim yılını manuel girip her sene değiştirilebilir olmalı. Bu sene yi sen yap. Bu sene nasıl olacak. 08/09/2025 okul başlangıcı olacak ve 10/11/2025 te ara tatil haftası olacak. Bu süre tam 9 hafta sürrüyor. Ve biz bu 9 haftada çocukalara eksi artı verip takip edeceğiz. Ve sonunda 7/11/2025 te 1. Dönem 1. Ders etkinliğine katılım notu vereceğim. Sonra liste sıfırlanacak ve bu seferde 17/11/2025 ile 09/01/2026 arasını 1. Dönem 2.  Ders etkinliği notu olarak değerlendireceğiz. Buda tam 8 hafta sürecek. Sonra 16/01/2026 ile 01/02/2026 arası yarıyıl tatil olacak ve liste sıfırlanacak. 02/02/2026 ile 10/04/2026 arasını kontrol edşp 2. Dönem 1. Ders etkinliklerine katılım notu vereceğiz. Tabi bu arada 2. Dönem ara taili var. O da 16-20 mart 2026 arasında. Bu arada tam 9 hafta olacak. Sonra tekrar sıfırlanacak. 13/04/2026 ile 12/06/2026arası 9 hafta değerlendirme yapılacak. Ve bu ayarlar hersene manuel güncellenip kaydetme butonu ile 2026 2027 içide ayarlanmalı.
+3.	Sınıf eklenince sınıf içerisinde 1. Tane dosya yükle butonu olsun. Bu excel word ve txt dosyalarından toplu yükleme yapabilsin. İçerkte okul no ad ve soyad a göre olsun ve ona göre yüklensin. Manuel öğrenci ekleme butonu olsun. Dönem ortasında öğrenci gelirse ekleme yapılabilsin. 
+4.	Bir buton da pdf çıktısı alınması için olsun. Pdf çıktısı da tüm sınıfı 1 tabloya sığfırmış şekilde şu düzende olacak. 
+Okul no I ad soyad I 1.HAFTA 08-12 EYLÜL I 2. HAFTA………….. (KAÇ HAFTA VARSA) I ALDIĞI NOT
+ŞEKLİNDE OLACAK. 
+5.	GELELİM DEĞERLENDİRME KISMINA 
+OKUL NO I AD SOYAD I + - 5+ G (BUTONLARI) I BU HAFTA + - 5+ G I TOPLAM + - 5+ G 
+ŞEKLİNDE TEK SIRA HALİNDE TELEFON EKRANINDA DİKEYE UYGUN ŞEKİLDE OLSUN. 
+ÇALIŞMA ŞEKLİDE ŞÖYLE OLACAK.
+ÇOCUK OKULA GELMEDİĞİ ZAMAN G TUŞUNA BASILINCA DİĞER TUŞLAR PASİF HALE GELECEK.
+ÇOCUK + ALDIYSA G TUŞU PASİF OLACAK DİĞERLERİ OLMAYACAK. AYNISI – İÇİNDE GEÇERLİ.
+TOPLAM PUAN 100 OLACAK VE BU SAYIYI GEÇMEYECEK. BİR ÇOCUK HER HAFTA 1 TANE EKSİ 1 TANE + ALABİLİR. 2. KEZ O BUTONA BASILAMAZ. HEM – HEM + AYNI HAFTA ALAMAZ. AMA AYNI HAFTA HEM – HEM 5+ ALABİLİR YADA HEM + HEM 5+ ALABİLİR. 1. DERS ETKİNLİK NOTU HAFTASI OLDUĞU ZAMAN NOT VERİLECEĞİ ZAMAN HER 2- İÇİN 5 PUAN KIRILACAK. HER 2*5+ İÇİNDE 5 PUAN VERİLECEK. 100 İSE NOTU DEĞİŞMEYECEK. 
+ÖRENK OLARAK AHMET 9 HAFTA DA 1G 2*5+ 4- 2+ SI VAR. 4- ALDIĞI İÇİN NOTU 90 OLDU AMA 2 TANE 5+ ALDIĞI İÇİN 5 PUAN GERİ VERİLDİ VE NOTU 9 HAFTANIN SONUNDA 95 OLDU. VE BU PDF ÇIKTISINDA DA BÖYLE GÖRÜNMESİ SAPLANACAK.
+ÖRNEK AYŞE DE 2G 1- 3*5+ 3+ ALDI 9 HAFAT SONUNDA. 1- DEN DOLAYI NOTU DÜŞMÜYOR 100 KALIYOR. 3 TANE 5+ DA ALMIŞ AMA EN YÜKSEK NOT 100 OLDUĞU İÇİN SON NOT 100 OLARAK GÖRÜNECEK VE PDF ÇIKTISINDA ÖYLE ALINACAK. 
+UYGULAMANIN KOMPLE ARKA PLANI SİYAH OLACAK. + İÇİN YEŞİL – İÇİN KIRMIZI 5+ İÇİN TURUNCU G İÇİN MAVİ RENK KULLAN. 
