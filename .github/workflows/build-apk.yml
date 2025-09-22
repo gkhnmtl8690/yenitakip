@@ -1,4 +1,4 @@
-name: EAS Build
+name: EAS Local Build
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: Build Android APK
+    name: Build Android APK Locally
     runs-on: ubuntu-latest
     steps:
       - name: 🏗 Setup repo
@@ -19,6 +19,12 @@ jobs:
           node-version: 18.x
           cache: npm
 
+      - name: ☕ Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
       - name: 🏗 Setup EAS
         uses: expo/expo-github-action@v8
         with:
@@ -28,11 +34,11 @@ jobs:
       - name: 📦 Install dependencies
         run: npm install
 
-      - name: 🚀 Build APK
-        run: eas build --platform android --profile preview --non-interactive --wait
+      - name: 🚀 Build APK locally
+        run: eas build --platform android --profile preview --local --non-interactive --output ./app.apk
 
       - name: 📱 Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: android-apk
-          path: "*.apk"
+          name: android-apk-local
+          path: ./app.apk
